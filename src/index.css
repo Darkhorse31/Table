@@ -18,6 +18,14 @@
 .textfield {
   border-radius: 50rem !important;
 }
+.btn{
+  width: 100px;
+  aspect-ratio: 1;
+  background-color: rgba(128, 128, 128, 0.568);
+  border-radius:50rem; 
+  box-shadow: 2px 0 5px 0 rgba(114, 113, 113, 0.411);
+  
+}
 
 @tailwind base;
 @tailwind components;

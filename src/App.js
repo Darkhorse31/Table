@@ -9,8 +9,8 @@ import Login from "./Testing/Login";
 function App() {
   return (
     <>
-      <div className="w-full h-screen grid place-items-center">
-        <MultipleImage />
+      <div className="w-full h-screen grid place-items-center sm:bg-yellow-300 md:bg-rose-400 xl:bg-slate-500">
+        {/* <MultipleImage /> */}
         {/* <Cal /> */}
         {/* <DataGridDemo /> */}
       </div>
