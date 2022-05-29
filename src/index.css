@@ -1,3 +1,6 @@
+.swal-overlay{
+  background-color: rgba(255, 0, 0, 0.137);
+}
 .hello {
   color: red;
 }

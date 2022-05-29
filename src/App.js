@@ -1,11 +1,18 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import DataGridDemo from "./Data Grid/DataGrid";
+import Dasboard from "./Testing/Dasboard";
+
+import Login from "./Testing/Login";
 
 function App() {
   return (
     <>
       <div className="w-full h-screen grid place-items-center">
-        <DataGridDemo />
+        <Routes>
+          <Route path="/" element={<Login />}></Route>
+          <Route path="/das" element={<Dasboard/>}></Route>
+        </Routes>
+        {/* <DataGridDemo /> */}
       </div>
     </>
   );
