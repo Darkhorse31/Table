@@ -18,13 +18,18 @@
 .textfield {
   border-radius: 50rem !important;
 }
-.btn{
-  width: 100px;
-  aspect-ratio: 1;
-  background-color: rgba(128, 128, 128, 0.568);
-  border-radius:50rem; 
+.input {
+  padding: 0.5rem 3rem;
+  background-color: transparent;
+}
+.btn {
+  width: auto;
+  padding-inline: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  border-radius: 2rem;
   box-shadow: 2px 0 5px 0 rgba(114, 113, 113, 0.411);
-  
 }
 
 @tailwind base;
