@@ -1,5 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import "./App.css";
+import Cal from "./Calculator";
+import MultipleImage from "./MultipleImagesend/MultipleImage";
 import Dasboard from "./Testing/Dasboard";
 
 import Login from "./Testing/Login";
@@ -8,10 +10,8 @@ function App() {
   return (
     <>
       <div className="w-full h-screen grid place-items-center">
-        <Routes>
-          <Route path="/" element={<Login />}></Route>
-          <Route path="/das" element={<Dasboard/>}></Route>
-        </Routes>
+        <MultipleImage />
+        {/* <Cal /> */}
         {/* <DataGridDemo /> */}
       </div>
     </>

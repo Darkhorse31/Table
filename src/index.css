@@ -1,5 +1,13 @@
-.swal-overlay{
+.swal-overlay {
   background-color: rgba(255, 0, 0, 0.137);
+}
+.swal-modal {
+  background-color: rgb(179, 152, 152);
+  box-shadow: 0 0 5px 0 rgba(255, 0, 0, 0.137);
+  transition: ease-in-out;
+}
+.swal-title {
+  color: rgba(255, 0, 0, 0.479);
 }
 .hello {
   color: red;
